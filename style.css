@@ -1,0 +1,62 @@
+body {
+    background: rgb(204,204,204); 
+  }
+  page {
+    position: relative;
+    background: white;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 0.5cm;
+    box-shadow: 0 0 0.5cm rgba(0,0,0,0.5);
+  }
+  page[size="A4"] {  
+    width: 21cm;
+    height: 29.7cm; 
+  }
+.rand{
+/* display: flex;
+flex-direction: row;
+justify-content: center; */
+background-color: rgb(240, 240, 240);
+}
+
+.europass{
+  margin-left: 300px;
+  padding-top: 60px;
+  color:rgb(114, 43, 108);
+    /* margin-left: auto;
+  margin-right: auto; */
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+
+  .imagine{
+  padding-top: 50px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  width: 100px;
+  float: left;
+  border-radius: 0%;
+  padding-left: 520px;
+  /* float: left; */
+  /* padding: 0px; */
+  /* border-radius: 0px; */
+  }
+
+.photo {
+    border-radius: 50%;
+    padding: 0px;
+    border: 5px solid rgb(128, 79, 124);
+    margin-right:240px;
+  }
+
+  .me{
+    margin-left: 210px;
+    padding-top: 5px;
+    color:rgb(114, 43, 108);
+    /* margin-left: auto;
+  margin-right: auto; */
+    font-size: 20px;
+    font-family:Arial, Helvetica, sans-serif;
+  }
